@@ -54,11 +54,7 @@ Add this code (in your index.php or somewhere else):
 
 With help from these scripts:
 
-http://www.w-a-s-a-b-i.com/archives/2006/02/02/wordpress-related-entries-20/
-
 http://textsnippets.com/posts/show/231
-
-http://www.lazaryn.com/entry-28.html
 
 == Screenshots ==
 

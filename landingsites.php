@@ -52,13 +52,15 @@ function ls_get_delim($ref) {
 			$delim = 'q';
 		elseif (strpos($ref, '.search.yahoo.') !== FALSE)
 			$delim = 'q';
+	    elseif (strpos($ref, 'exalead.') !== FALSE)
+			$delim = 'q';
 		elseif (strpos($ref, 'search.aol.') !== FALSE)
 			$delim = 'query';
 		elseif (strpos($ref, '.ask.com') !== FALSE)
 			$delim = 'q';
 		elseif (strpos($ref, 'recherche.aol.fr') !== FALSE)
 			$delim = (strpos($_SERVER['HTTP_REFERER'], 'query')!==FALSE)?'query':'q';
-    }
+	}
 
     return $delim;
 }

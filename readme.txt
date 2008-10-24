@@ -10,7 +10,7 @@ When visitors is referred to your site from a search engine, the plugin is showi
 
 == Description ==
 
-When visitors is referred to your site from a search engine, they are definitely looking for something specific - often they just roughly check the page they land on and then closes the window if what they are looking for isn't there. Why not help them by showing them related posts to their search on your blog? This plugin/guide lets you do that, works with a long list of search engines!
+When visitors is referred to your site from a search engine, they are definitely looking for something specific - often they just roughly check the page they land on and then closes the window if what they are looking for isn't there. Why not help them by showing them related posts to their search on your blog? This plugin lets you do that, works with a long list of search engines!
 
 == Installation ==
 

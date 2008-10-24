@@ -1,7 +1,7 @@
 === Landing sites ===
 Contributors: devil1591
 Donate link: http://wordpress.org/donate/
-Tags: google, referer, related
+Tags: google, referer, related, search, seo
 Requires at least: 2.0.2
 Tested up to: 2.7-almost-beta
 Stable tag: trunk

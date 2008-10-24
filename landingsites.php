@@ -134,7 +134,7 @@ function ls_related($limit=5, $len=10, $before_title='', $after_title='', $befor
                 $permalink = get_permalink($result->ID);
                 $post_content = strip_tags($result->post_content);
                 $post_content = stripslashes($post_content);
-                $output .= $before_title .'<a href="'. $permalink .'" rel="bookmark" title="'.__('Permanent Link to', 'landing-sites') . $title . '">' . $title . '</a>' . $after_title;
+                $output .= $before_title .'<a href="'. $permalink .'" rel="bookmark" title="'.__('Permanent Link to:', 'landing-sites') . $title . '">' . $title . '</a>' . $after_title;
                 if ($show_excerpt=='true') {
                     $words=split(" ",$post_content); 
                     $post_strip = join(" ", array_slice($words,0,$len));
@@ -143,7 +143,7 @@ function ls_related($limit=5, $len=10, $before_title='', $after_title='', $befor
             }
             echo $output;
         } else {
-            echo $before_title.__('No related posts', 'landing-sites').$after_title;
+            echo $before_title.__('No related posts.', 'landing-sites').$after_title;
         }
     }
 }

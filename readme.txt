@@ -1,5 +1,5 @@
 === Landing sites ===
-Contributors: devil1591
+Contributors: The undersigned, devil1591
 Donate link: http://wordpress.org/donate/
 Tags: google, referer, related, search, seo
 Requires at least: 2.0.2
@@ -32,7 +32,7 @@ Outputs the search terms
 Outputs a link to the referring search engine
 
 `ls_related()`
-Outputs the list of related posts. This can be customized by passing variables to it. ls_related(limit, lenght, ‘before title', ‘after title', ‘before post', ‘after post' show password protected posts, show post excerpts).
+Outputs the list of related posts. This can be customized by passing variables to it. ls_related(limit, lenght, 'before title', 'after title', 'before post', 'after post' show password protected posts, show post excerpts).
 
 In the code example in the FAQ, it outputs 5 related posts, 10 words per excerpt (if excerpts are enabled), list item start before title, list item close after post title, no content before and after posts, doesn't show password protected posts and doesn't show excerpts.
 
@@ -42,11 +42,11 @@ In the code example in the FAQ, it outputs 5 related posts, 10 words per excerpt
 
 Add this code (in your index.php or somewhere else):
 
-`<?php if (ls_getinfo(‘isref')) : ?>
-   <h2><?php ls_getinfo(‘terms'); ?></h2>
-   <p>You came here from <?php ls_getinfo(‘referrer'); ?> searching for <i><?php ls_getinfo(‘terms'); ?></i>. These posts might be of interest:</p>
+`<?php if (ls_getinfo('isref')) : ?>
+   <h2><?php ls_getinfo('terms'); ?></h2>
+   <p>You came here from <?php ls_getinfo('referrer'); ?> searching for <i><?php ls_getinfo('terms'); ?></i>. These posts might be of interest:</p>
    <ul>
-     <?php ls_related(5, 10, ‘<li>', ‘</li>', '', '', false, false); ?>
+     <?php ls_related(5, 10, '<li>', '</li>', '', '', false, false); ?>
    </ul>
 <?php endif; ?>`
 

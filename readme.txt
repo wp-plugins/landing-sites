@@ -53,7 +53,6 @@ Add this code (in your index.php or somewhere else):
 = How this plugins was made? =
 
 With help from these scripts:
-
 http://textsnippets.com/posts/show/231
 
 == Screenshots ==

@@ -3,7 +3,7 @@ Contributors: The undersigned, devil1591
 Donate link: http://wordpress.org/donate/
 Tags: google, referer, related, search, seo
 Requires at least: 2.0.2
-Tested up to: 2.7-almost-beta
+Tested up to: 2.7
 Stable tag: trunk
 
 When visitors is referred to your site from a search engine, the plugin is showing them related posts to their search on your blog.

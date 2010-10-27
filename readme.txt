@@ -1,9 +1,9 @@
 === Landing sites ===
-Contributors: The undersigned, devil1591
+Contributors: devil1591, Thomas Silkjær
 Donate link: http://wordpress.org/donate/
 Tags: google, referer, related, search, seo
 Requires at least: 2.0.2
-Tested up to: 2.7
+Tested up to: 3.1-alpha
 Stable tag: trunk
 
 When visitors is referred to your site from a search engine, the plugin is showing them related posts to their search on your blog.
@@ -32,7 +32,10 @@ Outputs the search terms
 Outputs a link to the referring search engine
 
 `ls_related()`
-Outputs the list of related posts. This can be customized by passing variables to it. ls_related(limit, lenght, 'before title', 'after title', 'before post', 'after post' show password protected posts, show post excerpts).
+Outputs the list of related posts. This can be customized by passing variables to it. ls_related('limit', 'length', 'before title', 'after title', 'before post', 'after post', 'show password protected posts', 'show post excerpts').
+
+`ls_search_engines()`
+Outputs links to other search engines results.  This can be customized by passing variables to it. ls_search_engines('before_title', 'after_title').
 
 In the code example in the FAQ, it outputs 5 related posts, 10 words per excerpt (if excerpts are enabled), list item start before title, list item close after post title, no content before and after posts, doesn't show password protected posts and doesn't show excerpts.
 

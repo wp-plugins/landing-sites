@@ -1,5 +1,5 @@
 === Landing sites ===
-Contributors: devil1591, Thomas Silkjær
+Contributors: devil1591
 Donate link: http://wordpress.org/donate/
 Tags: google, referer, related, search, seo
 Requires at least: 2.0.2

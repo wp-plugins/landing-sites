@@ -37,7 +37,6 @@ function ls_get_delim($ref) {
 		'search.netscape.com' => 'query',
 		'looksmart.com' => 'key',
 		'search.earthlink.net' => 'q',
-		'search.viewpoint.com' => 'k',
 		'mamma.com' => 'q'
 	);
 
